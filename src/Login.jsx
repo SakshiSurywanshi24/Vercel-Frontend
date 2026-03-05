@@ -4,7 +4,7 @@ import "./Login.css";
 import { FcGoogle } from "react-icons/fc";
 import { FaEnvelope, FaLock } from "react-icons/fa";
 
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://vercel-backend-zlwc.onrender.com";
 
 function Login() {
   const navigate = useNavigate();

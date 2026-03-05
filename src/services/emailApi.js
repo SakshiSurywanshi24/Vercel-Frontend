@@ -1,4 +1,4 @@
-const BASE_URL = "https://vercel-backend-zlwc.onrender.com/";
+const BASE_URL = "https://vercel-backend-zlwc.onrender.com";
 
 export const validateSingleEmail = async (email) => {
   const res = await fetch(`${BASE_URL}/validate`, {

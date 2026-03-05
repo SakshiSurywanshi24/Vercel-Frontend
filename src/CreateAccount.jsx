@@ -5,7 +5,7 @@ import { FcGoogle } from "react-icons/fc";
 import { FaEnvelope, FaLock, FaUser } from "react-icons/fa";
 
 // Backend API base URL
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://vercel-backend-zlwc.onrender.com";
 
 function CreateAccount() {
   const navigate = useNavigate();
